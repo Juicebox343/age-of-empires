@@ -1,20 +1,10 @@
-import React, { useState } from 'react';
-
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    useParams
-  } from "react-router-dom";
-
-
-
+import React from 'react';
+import { Link } from "react-router-dom";
 
 function CivResults(props){
           
     return(
-        <li><Link to={`/civs/${props.id}`}><img className='result-background' src={`images/civs/${props.data['featured-image']}`}/><span className='civ-title'>{props.data.name}</span></Link></li>
+        <li><Link to={`/civs/${props.id}`}><img className='result-background' src={`images/civs/${props.data['featured-image']}`} alt=''/><span className='civ-title'>{props.data.name}</span></Link></li>
         
     )
 }

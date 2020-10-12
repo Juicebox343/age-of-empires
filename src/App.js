@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import './App.css';
 
 import Header from './components/Header';
@@ -15,8 +15,8 @@ const civData = require('./data/civs.json');
 
 function App() {
   
-  const [maps, setMaps] = useState(mapData);
-  const [civs, setCivs] = useState(civData);
+  const [maps] = useState(mapData);
+  const [civs] = useState(civData);
 
   return (
     <div className='App'>

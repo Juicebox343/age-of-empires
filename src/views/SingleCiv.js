@@ -1,13 +1,4 @@
-import React, { useState } from 'react';
-
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    useParams
-  } from "react-router-dom";
-
+import React from 'react';
 
 function SingleCiv(props){
     // let { id } = useParams();
@@ -17,7 +8,7 @@ function SingleCiv(props){
     return (
       <main className='show-page'>
         <h3>The {civData.name}</h3>
-        <img src={`/images/civs/${civData['featured-image']}`}/>
+        <img src={`/images/civs/${civData['featured-image']}`} alt={civData.name} />
         <div className='civ-details'>
         <p>{civData.description}</p>
         <p>{civData['civ-bonus']}</p>

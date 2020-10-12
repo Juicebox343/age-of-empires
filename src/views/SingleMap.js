@@ -1,13 +1,4 @@
-import React, { useState } from 'react';
-
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    useParams
-  } from "react-router-dom";
-
+import React from 'react';
 
 function SingleMap(props){
     // let { id } = useParams();
@@ -17,10 +8,8 @@ function SingleMap(props){
     return (
       <main className='show-page'>
         <h3>{mapData.name}</h3>
-        <img src={`/images/maps/${mapData['featured-image']}`}/>
+        <img src={`/images/maps/${mapData['featured-image']}`} alt={mapData.name}/>
         <p>{mapData.description}</p>
-
-
       </main>
     );
 }
