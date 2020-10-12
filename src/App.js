@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import './App.css';
 
+import Header from './components/Header';
+import Home from './views/Home';
+
+import ResultIndex from './views/ResultIndex';
+import SingleMap from './views/SingleMap';
+
+import SingleCiv from './views/SingleCiv'; 
+
+const mapData = require('./data/maps.json')
+const civData = require('./data/civs.json');
+
 function App() {
+  
+  const [maps, setMaps] = useState(mapData);
+  const [civs, setCivs] = useState(civData);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+    <Header/>
+      <Switch>
+        <Route exact path='/' render={(props) => (<Home {...props} mapData={maps} civData={civs} /> )}/>
+        <Route exact path ='/maps' render={(props) => (<ResultIndex {...props} data={maps} type={'maps'} /> )}/>
+        <Route path ='/maps/:id' render={ ({match}) => {
+            const map = maps[match.params.id];
+            return <SingleMap mapData={map} /> 
+          }}
+        />   
+        <Route exact path ='/civs' render={(props) => (<ResultIndex {...props} data={civs} type={'civs'} /> )}/>   
+        <Route path ='/civs/:id' render={ ({match}) => {
+            const civ = civs[match.params.id];
+            return <SingleCiv civData={civ} /> 
+          }}
+        />  
+      </Switch>
     </div>
+
   );
 }
 
+
 export default App;
+

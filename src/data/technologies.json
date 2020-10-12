@@ -1,0 +1,15 @@
+{
+    "0": {
+      "name": "Acropolis ",
+      "featured-image": "url",
+      "map-type": "default",
+      "release": "[whichGame, OrExpansion]",
+      "description": "describe me"
+    },
+    "1": {
+      "name": "Alfheim",
+      "featured-image": "url",
+      "map-type": "default",
+      "release": "[whichGame, OrExpansion]",
+      "description": "describe me"
+    },

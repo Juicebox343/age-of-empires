@@ -1,0 +1,276 @@
+{
+  "0": {
+    "name": "Arabia",
+    "description": "Arid desert with strategic elevations and cliffs, but sparse vegetation and water.",
+    "featured-image": "arabia.png"
+  },
+  "1": {
+    "name": "Arena",
+    "description": "The walls around your forest clearing are your only protection from the carnage in the middle.",
+    "featured-image": "arena.png"
+  },
+  "2": {
+    "name": "Archipelago",
+    "description": "A group of large islands. You might not be the only inhabitant on yours.",
+    "featured-image": "archipelago.png"
+  },
+  "3": {
+    "name": "Baltic",
+    "description": "An ocean with peninsulas and sheltered bays.",
+    "featured-image": "baltic.png"
+  },
+  "4": {
+    "name": "Black Forest",
+    "description": "Islands of grass in a sea of trees. Follow the paths through the forest to find your allies and enemies.",
+    "featured-image": "black_forest.png"
+  },
+  "5": {
+    "name": "Coastal",
+    "description": "Where the land meets the ocean, with plenty of water and a large landmass for battles by land or by sea.",
+    "featured-image": "coastal.png"
+  },
+  "6": {
+    "name": "Continental",
+    "description": "A large body of land surrounded by the sea; rivers may separate players and teams.",
+    "featured-image": "continental.png"
+  },
+  "7": {
+    "name": "Crater Lake",
+    "description": "An island brimming with gold in the center of a caldera lake. Steep elevation and lack of trees make it hard to build there.",
+    "featured-image": "crater_lake.png"
+  },
+  "8": {
+    "name": "Fortress",
+    "description": "A walled city with gates and all the buildings you need to build up your forces quickly.",
+    "featured-image": "fortress.png"
+  },
+  "9": {
+    "name": "Ghost Lake",
+    "description": "The central lake is frozen over, creating a no-man's land.",
+    "featured-image": "ghost_lake.png"
+  },
+  "10": {
+    "name": "Gold Rush",
+    "description": "A whole heap of gold and a few wolves in the middle of a desert.",
+    "featured-image": "gold_rush.png"
+  },
+  "11": {
+    "name": "Highland",
+    "description": "Far from the ocean and heavily forested but with plenty of rivers and open space for maneuvers.",
+    "featured-image": "highland.png"
+  },
+  "12": {
+    "name": "Islands",
+    "description": "Each player starts alone on an island; uninhabited islands may be rich with resources so be prepared to rule the sea.",
+    "featured-image": "islands.png"
+  },
+  "13": {
+    "name": "Mediterranean",
+    "description": "An inland sea surrounded by land; sounds deceptively peaceful.",
+    "featured-image": "mediterranean.png"
+  },
+  "14": {
+    "name": "Migration",
+    "description": "A tiny island that can't support you for long before you must move to the mainland, where the fighting is fierce.",
+    "featured-image": "migration.png"
+  },
+  "15": {
+    "name": "Mongolia",
+    "description": "Cliffs abound on these parched and endless steppes.",
+    "featured-image": "mongolia.png"
+  },
+  "16": {
+    "name": "Nomad",
+    "description": "Your villagers begin scattered without a Town Center or Scout Cavalry. Will you build a town immediately or struggle to find the perfect location to settle?",
+    "featured-image": "nomad.png"
+  },
+  "17": {
+    "name": "Oasis",
+    "description": "Nearly all of the wood is in the center of the map, so prepare to be chased around and around.",
+    "featured-image": "oasis.png"
+  },
+  "18": {
+    "name": "Rivers",
+    "description": "Players are isolated by narrow rivers; numerous shallows must be guarded at all cost.",
+    "featured-image": "rivers.png"
+  },
+  "19": {
+    "name": "Salt Marsh",
+    "description": "Swampy lowlands full of shallows and rivers that can prohibit expansionistic building.",
+    "featured-image": "salt_marsh.png"
+  },
+  "20": {
+    "name": "Scandinavia",
+    "description": "In the northern wilderness the berry bushes have all frozen, but there are hungry animals to be hunted and plenty of gold to be found.",
+    "featured-image": "scandinavia.png"
+  },
+  "21": {
+    "name": "Team Islands",
+    "description": "One island shared by you and your allies, and another inhabited by your enemies. The islands are not connected by shallows, so beware of enemy Transport Ships.",
+    "featured-image": "team_islands.png"
+  },
+  "22": {
+    "name": "Yucatan",
+    "description": "In the tropical rainforest food is abundant, but jaguars stalk beneath the canopy.",
+    "featured-image": "yucatan.png"
+  },
+  "23": {
+    "name": "Full Random",
+    "description": "Chooses one of the following maps: Arabia, Archipelago, Baltic, Coastal, Continental, Ghost Lake, Highland, Islands, Mediterranean, Migration, Mongolia, Oasis, Rivers, Scandinavia, Team Islands, or Yucatan.",
+    "featured-image": "question.png"
+  },
+  "24": {
+    "name": "Random Land",
+    "description": "Chooses one of the following maps: Arabia, Ghost Lake, Highland, Mongolia, Oasis and Yucatan.",
+    "featured-image": "question.png"
+  },
+  "25": {
+    "name": "Iberia",
+    "description": "The Iberian Peninsula, including Spain and Portugal.",
+    "featured-image": "iberia.png"
+  },
+  "26": {
+    "name": "Britain",
+    "description": "Expect lots of naval combat in the North Sea and across the English Channel.",
+    "featured-image": "britain.png"
+  },
+  "27": {
+    "name": "Mideast",
+    "description": "Where continents, cultures, and world religions collide.",
+    "featured-image": "mideast.png"
+  },
+  "28": {
+    "name": "Texas",
+    "description": "Relive the classic Mayan and Korean skirmish over the Lone Star state.",
+    "featured-image": "texas.png"
+  },
+  "29": {
+    "name": "Italy",
+    "description": "Rome has fallen and the peninsula is up for grabs.",
+    "featured-image": "italy.png"
+  },
+  "30": {
+    "name": "Central America",
+    "description": "The Aztecs and Mayans vie for domination of Central America with invaders from across the sea.",
+    "featured-image": "central_america.png"
+  },
+  "31": {
+    "name": "France",
+    "description": "Re-enact the Moslem invasion and the Hundred Years War.",
+    "featured-image": "france.png"
+  },
+  "32": {
+    "name": "Norse Lands",
+    "description": "Norway, Sweden, Finland, Denmark, and Holland.",
+    "featured-image": "norse_lands.png"
+  },
+  "33": {
+    "name": "Sea of Japan (East Sea)",
+    "description": "Japanese warships and Korean Turtle Ships do battle in this rocky sea.",
+    "featured-image": "sea_of_japan.png"
+  },
+  "34": {
+    "name": "Byzantium",
+    "description": "Rome never truly fell, it just changed continents.",
+    "featured-image": "byzantium.png"
+  },
+  "35": {
+    "name": "Custom",
+    "featured-image": "question.png"
+  },
+  "36": {
+    "name": "Acropolis",
+    "description": "Battle on the barren slopes of your base as you defend your hill and conquer the enemy's.",
+    "featured-image": "acropolis.png"
+  },
+  "37": {
+    "name": "Blind Random",
+    "description": "Chooses one of the following maps: Arabia, Archipelago, Baltic, Black Forest, Coastal, Continental, Crater Lake, Ghost Lake, Gold Rush, Highland, Islands, Mediterranean, Migration, Mongolia, Oasis, Rivers, Salt Marsh, Scandinavia, Team Islands, or Yucatan.",
+    "featured-image": "question.png"
+  },
+  "38": {
+    "name": "Cenotes",
+    "description": "An open land studded with sinkholes but only a few clusters of trees.",
+    "featured-image": "cenotes.png"
+  },
+  "39": {
+    "name": "City of Lakes",
+    "description": "An endless maze of lakes and rivers winding through a sparsely forested desert.",
+    "featured-image": "city_of_lakes.png"
+  },
+  "40": {
+    "name": "Golden Pit",
+    "description": "A ravine filled with gold beckons but its depths loom treacherously as enemies lie in wait on the other side.",
+    "featured-image": "golden_pit.png"
+  },
+  "41": {
+    "name": "Hideout",
+    "description": "A palisade wall provides only false comfort over the palpable feeling of enemy lurking just around the corner.",
+    "featured-image": "hideout.png"
+  },
+  "42": {
+    "name": "Hill Fort ",
+    "description": "A fortified stronghold perched on a mountain top may be virtually impregnable but scarce resources and lack of space drive players to expand their empires into the lowlands around. ",
+    "featured-image": "hill_fort.png"
+  },
+  "43": {
+    "name": "Lombardia",
+    "description": "A handful of cities on opposite ends of a wintry landscape must share, trade and coordinate in their efforts to defeat the enemy. ",
+    "featured-image": "lombardia.png"
+  },
+  "44": {
+    "name": "Steppe",
+    "description": "Dare you leave the safe shelter of the trees to hunt the graceful deer roaming the open ground? ",
+    "featured-image": "steppe.png"
+  },
+  "45": {
+    "name": "Valley",
+    "description": "A dried up river stands between enemy towns but also poses an opportunity as animals gather there to gulp down the last drops. ",
+    "featured-image": "valley.png"
+  },
+  "46": {
+    "name": "MegaRandom",
+    "description": "Ever dreamed of an endlessly unpredictable map where anything is possible and nothing is guaranteed? Multiply it by ten and you have... MegaRandom",
+    "featured-image": "question.png"
+  },
+  "47": {
+    "name": "Hamburger",
+    "description": "The ultimate Easter Egg map. Located on either side of the tasty burger, will you eat through it, or sail around the bun and surprise the enemy?",
+    "featured-image": "hamburger.png"
+  },
+  "48": {
+    "name": "Budapest",
+    "description": "Two towns and a plethora of wildlife offer unconventionally intense battles",
+    "featured-image": "budapest.png"
+  },
+  "49": {
+    "name": "CtR Random",
+    "description": "A compilation of gameplay-enhancing maps designed specifically for Capture the Relic mode! Dozens of wildly different layouts further challenge the aspects of the game mode, and guarantee an unpredictable, yet highly fulfilling experience.",
+    "featured-image": "question.png"
+  },
+  "50": {
+    "name": "CtR Monsoon",
+    "description": "One of the three most challenging Capture the Relic maps. There is only limited space to build on as most of the map is covered in endless marshes, which in the coldest seasons turn to ice. The relic stands in the centre, enclosed in a sacred grove of trees.",
+    "featured-image": "ctr_monsoon.png"
+  },
+  "51": {
+    "name": "CtR Pyramid Descent",
+    "description": "One of the three most challenging Capture the Relic maps. Players appear huddled up around the relic atop a vast pyramid but their monasteries lie all the way on the bottom stair.",
+    "featured-image": "ctr_pyramid_descent.png"
+  },
+  "52": {
+    "name": "CtR Spiral",
+    "description": "One of the three most challenging Capture the Relic maps. The center of the map has been engulfed in a spiral of deep waters and the only way to reach the relic is to follow the current in long and treacherous circles.",
+    "featured-image": "ctr_spiral.png"
+  },
+  "53": {
+    "name": "Random Map",
+    "description": "Most common game; you choose the settings and victory conditions.",
+    "featured-image": "question.png"
+  },
+  "54":{
+    "name": "Earth",
+    "description": "FILL IN",
+    "featured-image": "earth.png"
+  }
+}
