@@ -1,3 +1,3 @@
 https://hopeful-mahavira-42e4e3.netlify.app
 
-Basic Age of Empires reference app because I'm a n00b
+A bad app for referencing Age of Empires 2 HD civilizations and map types
