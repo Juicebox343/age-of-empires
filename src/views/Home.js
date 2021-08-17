@@ -6,13 +6,13 @@ function Home(props){
     
     return(
         <main class='home'>
-            <section>
+            <section className='maps'>
                 <h3>Some Random Maps</h3>
                 <Carousel data={props.mapData} type='maps'/>
                 <Link to={'/maps'}>Some more</Link>
             </section>
 
-            <section>
+            <section className='civilizations'>
                 <h3>Some Random Civilizations</h3>
                 <Carousel data={props.civData} type='civs'/>
                 <Link to={'/civs'}>Some more</Link>

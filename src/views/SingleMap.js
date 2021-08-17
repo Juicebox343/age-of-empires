@@ -6,11 +6,16 @@ function SingleMap(props){
     const mapData = props.mapData;
 
     return (
-      <main className='show-page'>
-        <h3>{mapData.name}</h3>
-        <img src={`/images/maps/${mapData['featured-image']}`} alt={mapData.name}/>
+      <>  
+      {mapData &&  
+      <main className='show-page map-page'>
+          <h3>{mapData.name}</h3>
+          <img src={`/images/maps/${mapData['featured-image']}`} alt={mapData.name}/>
         <p>{mapData.description}</p>
       </main>
+
+      }
+    </>
     );
 }
 

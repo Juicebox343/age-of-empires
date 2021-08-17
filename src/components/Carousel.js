@@ -26,7 +26,6 @@ function Carousel(props){
                     <Link to={`/${props.type}/${random[key]}`}>
                         <img className='result-background' src={`images/${props.type}/${props.data[random[key]]['featured-image']}`} alt=''/>
                         <span className='title'>{props.data[random[key]].name}</span>
-                        <div className='tool-tip'><span>{props.data[random[key]].description && props.data[random[key]].description.substring(0, 80).trim()}..<br/>[Read More]</span></div>
                     </Link>
                 </li> 
                 )}

@@ -165,7 +165,7 @@
     "featured-image": "norse_lands.png"
   },
   "33": {
-    "name": "Sea of Japan (East Sea)",
+    "name": "Sea of Japan",
     "description": "Japanese warships and Korean Turtle Ships do battle in this rocky sea.",
     "featured-image": "sea_of_japan.png"
   },
@@ -254,7 +254,7 @@
     "featured-image": "ctr_monsoon.png"
   },
   "51": {
-    "name": "CtR Pyramid Descent",
+    "name": "CtR Pyramid Desc",
     "description": "One of the three most challenging Capture the Relic maps. Players appear huddled up around the relic atop a vast pyramid but their monasteries lie all the way on the bottom stair.",
     "featured-image": "ctr_pyramid_descent.png"
   },

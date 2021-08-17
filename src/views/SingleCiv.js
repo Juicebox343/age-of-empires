@@ -6,54 +6,58 @@ function SingleCiv(props){
     const civData = props.civData
 
     return (
-      <main className='show-page'>
-        <h3>The {civData.name}</h3>
-        <img src={`/images/civs/${civData['featured-image']}`} alt={civData.name} />
-        <div className='civ-details'>
-        <p className='description'>{civData.description}</p>
-        <h4>Civilization Bonus</h4>
-        <ul>
-          {Object.keys(civData['civ-bonus']).map(element => 
-            <li>{civData['civ-bonus'][element]}</li>
-          )}
-        </ul>
+      <>  
+      {civData &&  
         
-        <h4>Unique Unit</h4>
-        <ul>
-          {Object.keys(civData['unique-unit']).map(element => 
-            <li>{civData['unique-unit'][element]}</li>
-          )}
-        </ul>
+          <main className='show-page'>
+            <div>
+              <h3>The {civData.name}</h3>
+              <img src={`/images/civs/${civData['featured-image']}`} alt={civData.name} />
+              <p className='description'>{civData.description}</p>
+            </div>
 
-        <h4>Unique Technologies</h4>
-        <ul>
-          {Object.keys(civData['unique-tech']).map(element => 
-            <li>{civData['unique-tech'][element]}</li>
-          )}
-        </ul>
-        
-        <h4>Team Bonus</h4>
-        <ul>
-          {Object.keys(civData['team-bonus']).map(element => 
-            <li>{civData['team-bonus'][element]}</li>
-          )}
-        </ul>
+            <div className='civ-details'>
+         
+            <h4>Civilization Bonus</h4>
+            <ul>
+              {Object.keys(civData['civ-bonus']).map(element => 
+                <li>{civData['civ-bonus'][element]}</li>
+              )}
+            </ul>
+            
+            <h4>Unique Unit</h4>
+            <ul>
+              {Object.keys(civData['unique-unit']).map(element => 
+                <li>{civData['unique-unit'][element]}</li>
+              )}
+            </ul>
 
-        <h4>Wonder</h4>
-        <ul>
-          {Object.keys(civData['wonder']).map(element => 
-            <li>{civData['wonder'][element]}</li>
-          )}
-        </ul>
+            <h4>Unique Technologies</h4>
+            <ul>
+              {Object.keys(civData['unique-tech']).map(element => 
+                <li>{civData['unique-tech'][element]}</li>
+              )}
+            </ul>
+            
+            <h4>Team Bonus</h4>
+            <ul>
+              {Object.keys(civData['team-bonus']).map(element => 
+                <li>{civData['team-bonus'][element]}</li>
+              )}
+            </ul>
 
-        
-        
-        
-        </div>
-        
+            <h4>Wonder</h4>
+            <ul>
+              {Object.keys(civData['wonder']).map(element => 
+                <li>{civData['wonder'][element]}</li>
+              )}
+            </ul>
 
-
-      </main>
+            </div>
+          </main>
+        
+        }
+          </>
     );
 }
 

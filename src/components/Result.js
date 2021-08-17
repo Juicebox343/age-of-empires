@@ -9,7 +9,6 @@ function Result(props){
             <Link to={`/${props.type}/${props.id}`}>
                 <img className='result-background' src={`images/${props.type}/${props.data['featured-image']}`} alt=''/>
                 <span className='title'>{props.data.name}</span>
-                <div className='tool-tip'><span>{props.data.description && props.data.description.substring(0, 80).trim()}..<br/>[Read More]</span></div>
             </Link>
         </li>
         
